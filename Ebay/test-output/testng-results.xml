@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="110584" started-at="2019-02-06T13:07:43Z" finished-at="2019-02-06T13:09:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="110584" started-at="2019-02-06T13:07:43Z" finished-at="2019-02-06T13:09:34Z">
+      <class name="com.ebay.tests.PlaceOrderTest">
+        <test-method status="PASS" signature="startTest(java.lang.String)[pri:0, instance:com.ebay.tests.PlaceOrderTest@2781e022]" name="startTest" is-config="true" duration-ms="20532" started-at="2019-02-06T13:07:43Z" finished-at="2019-02-06T13:08:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test On Android Device]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="searchProduct()[pri:1, instance:com.ebay.tests.PlaceOrderTest@2781e022]" name="searchProduct" duration-ms="40437" started-at="2019-02-06T13:08:04Z" description="Change location to Australia and search for a product" finished-at="2019-02-06T13:08:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="clickSearchResult()[pri:2, instance:com.ebay.tests.PlaceOrderTest@2781e022]" name="clickSearchResult" duration-ms="7339" started-at="2019-02-06T13:08:44Z" description="Tap on a search result" finished-at="2019-02-06T13:08:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSearchResult -->
+        <test-method status="PASS" signature="checkElementsInProductDetail(org.openqa.selenium.By, java.lang.String)[pri:3, instance:com.ebay.tests.PlaceOrderTest@2781e022]" name="checkElementsInProductDetail" duration-ms="1241" started-at="2019-02-06T13:08:51Z" description="Check elements in product detail page" data-provider="productDetailElements" finished-at="2019-02-06T13:08:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[By.id: com.ebay.mobile:id/textview_item_name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Item name not found]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkElementsInProductDetail -->
+        <test-method status="PASS" signature="checkElementsInProductDetail(org.openqa.selenium.By, java.lang.String)[pri:3, instance:com.ebay.tests.PlaceOrderTest@2781e022]" name="checkElementsInProductDetail" duration-ms="950" started-at="2019-02-06T13:08:53Z" description="Check elements in product detail page" data-provider="productDetailElements" finished-at="2019-02-06T13:08:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[By.id: com.ebay.mobile:id/textview_item_price]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Price not found]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkElementsInProductDetail -->
+        <test-method status="PASS" signature="checkElementsInProductDetail(org.openqa.selenium.By, java.lang.String)[pri:3, instance:com.ebay.tests.PlaceOrderTest@2781e022]" name="checkElementsInProductDetail" duration-ms="1004" started-at="2019-02-06T13:08:54Z" description="Check elements in product detail page" data-provider="productDetailElements" finished-at="2019-02-06T13:08:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[By.id: com.ebay.mobile:id/button_bin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Buy Now button not found]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkElementsInProductDetail -->
+        <test-method status="PASS" signature="tapBuyNowButton()[pri:4, instance:com.ebay.tests.PlaceOrderTest@2781e022]" name="tapBuyNowButton" duration-ms="6240" started-at="2019-02-06T13:08:55Z" description="Save item name and price and tap on Buy Now button in product detail" finished-at="2019-02-06T13:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tapBuyNowButton -->
+        <test-method status="PASS" signature="loginToEbay()[pri:5, instance:com.ebay.tests.PlaceOrderTest@2781e022]" name="loginToEbay" duration-ms="16645" started-at="2019-02-06T13:09:01Z" description="Login and verify the price and item name in cart" finished-at="2019-02-06T13:09:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToEbay -->
+        <test-method status="PASS" signature="reviewOrder()[pri:6, instance:com.ebay.tests.PlaceOrderTest@2781e022]" name="reviewOrder" duration-ms="10192" started-at="2019-02-06T13:09:18Z" description="Review the order in checkout page" finished-at="2019-02-06T13:09:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewOrder -->
+        <test-method status="PASS" signature="scrollDownToCheckFinalPrice()[pri:7, instance:com.ebay.tests.PlaceOrderTest@2781e022]" name="scrollDownToCheckFinalPrice" duration-ms="5946" started-at="2019-02-06T13:09:28Z" description="Check pricing details in checkout page" finished-at="2019-02-06T13:09:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollDownToCheckFinalPrice -->
+        <test-method status="PASS" signature="quitApplication()[pri:0, instance:com.ebay.tests.PlaceOrderTest@2781e022]" name="quitApplication" is-config="true" duration-ms="1652" started-at="2019-02-06T13:09:34Z" finished-at="2019-02-06T13:09:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitApplication -->
+      </class> <!-- com.ebay.tests.PlaceOrderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
