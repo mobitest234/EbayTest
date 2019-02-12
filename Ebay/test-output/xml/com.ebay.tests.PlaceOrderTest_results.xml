@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test on Android device"
+           tests="31"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="91.566">
+  <properties />
+  
+  
+            <testcase name="clickMenuButton" time="3.211" classname="com.ebay.tests.PlaceOrderTest" />
+                <testcase name="clickAutoDetectToggleButton" time="2.110" classname="com.ebay.tests.PlaceOrderTest" />
+                <testcase name="checkElementsInrRegionSelectorPage" time="0.567" classname="com.ebay.tests.PlaceOrderTest" />
+                <testcase name="checkElementsInProductDetail" time="1.249" classname="com.ebay.tests.PlaceOrderTest" />
+                <testcase name="checkElementsInMenu" time="1.042" classname="com.ebay.tests.PlaceOrderTest" />
+                <testcase name="checkElementsInMenu" time="0.675" classname="com.ebay.tests.PlaceOrderTest" />
+                <testcase name="checkElementsInSettingsPage" time="0.777" classname="com.ebay.tests.PlaceOrderTest" />
+                <testcase name="clickRegionButton" time="2.598" classname="com.ebay.tests.PlaceOrderTest" />
+                <testcase name="clickRegionDropDown" time="3.164" classname="com.ebay.tests.PlaceOrderTest" />
+                <testcase name="checkElementsInProductDetail" time="0.795" classname="com.ebay.tests.PlaceOrderTest" />
+                <testcase name="scrollDownAndClickSettingsButtonInMenu" time="4.504" classname="com.ebay.tests.PlaceOrderTest" />
+                <testcase name="checkElementsInrRegionSelectorPage" time="0.539" classname="com.ebay.tests.PlaceOrderTest" />
+                <testcase name="checkElementsInProductDetail" time="0.701" classname="com.ebay.tests.PlaceOrderTest" />
+                <testcase name="checkElementsInrLocationSearchPage" time="0.245" classname="com.ebay.tests.PlaceOrderTest" />
+                <testcase name="clickSearchResult" time="7.302" classname="com.ebay.tests.PlaceOrderTest" />
+                <testcase name="searchForRegion" time="1.973" classname="com.ebay.tests.PlaceOrderTest" />
+                <testcase name="checkElementsInMenu" time="1.052" classname="com.ebay.tests.PlaceOrderTest" />
+                <testcase name="checkElementsInSettingsPage" time="0.678" classname="com.ebay.tests.PlaceOrderTest" />
+                <testcase name="scrollDownToCheckFinalPrice" time="4.649" classname="com.ebay.tests.PlaceOrderTest" />
+                <testcase name="checkElementsInMenu" time="0.614" classname="com.ebay.tests.PlaceOrderTest" />
+                <testcase name="navigateBackToHomePage" time="5.640" classname="com.ebay.tests.PlaceOrderTest" />
+                <testcase name="checkElementsInMenu" time="1.093" classname="com.ebay.tests.PlaceOrderTest" />
+                <testcase name="checkElementsInrLocationSearchPage" time="0.454" classname="com.ebay.tests.PlaceOrderTest" />
+                <testcase name="checkElementsInrRegionSelectorPage" time="0.534" classname="com.ebay.tests.PlaceOrderTest" />
+                <testcase name="loginToEbay" time="14.897" classname="com.ebay.tests.PlaceOrderTest" />
+                <testcase name="checkElementsInSettingsPage" time="0.689" classname="com.ebay.tests.PlaceOrderTest" />
+                <testcase name="reviewOrder" time="10.548" classname="com.ebay.tests.PlaceOrderTest" />
+                <testcase name="checkElementsInrLocationSearchPage" time="0.252" classname="com.ebay.tests.PlaceOrderTest" />
+                <testcase name="tapBuyNowButton" time="4.340" classname="com.ebay.tests.PlaceOrderTest" />
+                <testcase name="selectRegion" time="2.616" classname="com.ebay.tests.PlaceOrderTest" />
+                <testcase name="searchProduct" time="12.058" classname="com.ebay.tests.PlaceOrderTest" />
+      
+</testsuite>
