@@ -1,3 +1,5 @@
 1. Change device name and OS version in GetDriver class
 2. Username, Password and Search keyword are being fetched from resources.properties file
-3. Run testNG.xml file or PlaceOrderTest class directly to run the test cases
+3. Run testNG.xml file to run the test cases and to get the logs
+4. Reports can be found in ./test-output/html/index.html
+5. Logs can be found in ./src/external.logs and console

@@ -2,6 +2,14 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 
+
+	<listeners>
+		<listener class-name="com.ebay.helpers.Listener" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
 	<test name="Test on Android device">
 		<parameter name="testItem" value="Test On Android Device" />
 		<classes>
